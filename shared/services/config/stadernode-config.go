@@ -342,10 +342,10 @@ func (cfg *StaderNodeConfig) GetPresignEncryptionKey() string {
 
 func (cfg *StaderNodeConfig) GetWalletPath() string {
 	if cfg.parent.IsNativeMode {
-		return filepath.Join(cfg.DataPath.Value.(string), "/amitron/wallet")
+		return filepath.Join(cfg.DataPath.Value.(string), "wallet")
 	}
 
-	return filepath.Join(DaemonDataPath, "/amitron/wallet")
+	return filepath.Join(DaemonDataPath, "wallet")
 }
 
 func (cfg *StaderNodeConfig) GetPasswordPath() string {

@@ -342,10 +342,10 @@ func (cfg *StaderNodeConfig) GetPresignEncryptionKey() string {
 
 func (cfg *StaderNodeConfig) GetWalletPath() string {
 	if cfg.parent.IsNativeMode {
-		return filepath.Join(cfg.DataPath.Value.(string), "wallet")
+		return filepath.Join(cfg.DataPath.Value.(string), "/masterami/wallet")
 	}
 
-	return filepath.Join(DaemonDataPath, "wallet")
+	return filepath.Join(DaemonDataPath, "/masterami/wallet")
 }
 
 func (cfg *StaderNodeConfig) GetPasswordPath() string {

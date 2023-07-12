@@ -25,7 +25,7 @@ import (
 
 	"github.com/urfave/cli"
 
-	"github.com/stader-labs/stader-node/shared"
+	"github.com/rebitron/stader-node/shared"
 	apiutils "github.com/stader-labs/stader-node/shared/utils/api"
 	"github.com/stader-labs/stader-node/stader/api"
 	"github.com/stader-labs/stader-node/stader/guardian"

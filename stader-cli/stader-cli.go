@@ -24,7 +24,7 @@ import (
 	"os"
 
 	"github.com/mitchellh/go-homedir"
-	"github.com/stader-labs/stader-node/shared"
+	"github.com/rebitron/stader-node/shared"
 	cliutils "github.com/stader-labs/stader-node/shared/utils/cli"
 	"github.com/stader-labs/stader-node/stader-cli/node"
 	"github.com/stader-labs/stader-node/stader-cli/service"
